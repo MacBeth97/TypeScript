@@ -1,0 +1,9 @@
+// Install TS, npm -g install TypeScript
+// To begin, npm init, press Enter until json file created
+// Install server, npm install lite-server --save-dev
+// The --save-dev saves it as developer dependency
+// In order to run server, add script in .json, "start": "lite-server"
+// Then to start server, npm start
+
+// Run tsc --init, which allows compilation of all ts files
+// Then you can just type tsc
