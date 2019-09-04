@@ -11,6 +11,7 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
+
 var Person = /** @class */ (function () {
     //shortcut to add to class
     function Person(name, username) {
@@ -31,7 +32,7 @@ var Person = /** @class */ (function () {
     };
     return Person;
 }());
-;
+
 //Instantiate class
 var person = new Person("Gareth", "gareth");
 console.log(person.name, person.username);
@@ -53,6 +54,7 @@ var Gareth = /** @class */ (function (_super) {
     ;
     return Gareth;
 }(Person));
+
 var gareth = new Gareth("gareth");
 console.log(gareth);
 //Getter and Setters
@@ -78,7 +80,7 @@ var Plant = /** @class */ (function () {
     ;
     return Plant;
 }());
-;
+
 var plant = new Plant();
 console.log(plant.species);
 plant.species = "AB";
